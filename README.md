@@ -368,3 +368,4 @@ Adicionando para o ambiente de desenvolvimento no arquivo ormconfig.json a op√ß√
 ```Json
 "logging": true,
 ```
+"# NLW4_NODEJS" 
