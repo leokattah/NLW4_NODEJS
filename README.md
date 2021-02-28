@@ -2,14 +2,7 @@
 
 # NLW4-NODEJS
 
-![](https://img.shields.io/badge/Made_With-_-grey?style=flat-square)
-![](https://img.shields.io/badge/_-Typescript-blue?style=flat-square)
-![](https://img.shields.io/badge/_-Javascript-yellow?style=flat-square)
-![](https://img.shields.io/badge/_-TypeORM-orange?style=flat-square)
-![](https://img.shields.io/badge/_-Git-red?style=flat-square)
-![](https://img.shields.io/badge/_-Github-black?style=flat-square)
-
-Rocketseat
+## Rocketseat
 
 <img src="https://cdn.discordapp.com/attachments/694609874197151754/813851700011335730/NLW04_pack_divulgacao_-_Github.png" alt="Banner NLW#4 Rocketseat">
 
@@ -32,7 +25,7 @@ Rocketseat
 <br>
 
 <p align="center">
-  <img alt="Happy" src=".github/preview.png" width="100%">
+  <img alt="Aplicação rodando" src="https://github.com/leokattah/NLW4_NODEJS/blob/main/assets/NLW4_concluida.gif" width="100%">
 </p>
 
 ## ✨ Tecnologias
