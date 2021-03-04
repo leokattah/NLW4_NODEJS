@@ -1,9 +1,15 @@
 import "reflect-metadata";
+<<<<<<< HEAD
 import express, { NextFunction, Request, Response } from "express";
 import "express-async-errors";
 import createConnection from "./database";
 import { router } from "./routes";
 import { AppError } from "./errors/AppError";
+=======
+import express from 'express';
+import createConnection from "./database";
+import { router } from "./routes";
+>>>>>>> 03601a0e03be5d2be12ce120b4f5923fbb4511b5
 
 createConnection();
 const app = express();
@@ -11,6 +17,7 @@ const app = express();
 app.use(express.json());
 app.use(router);
 
+<<<<<<< HEAD
 app.use(
   (err: Error, request: Request, response: Response, _next: NextFunction) => {
     if (err instanceof AppError) {
@@ -27,3 +34,6 @@ app.use(
 );
 
 export { app };
+=======
+export { app };
+>>>>>>> 03601a0e03be5d2be12ce120b4f5923fbb4511b5
