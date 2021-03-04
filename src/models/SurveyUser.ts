@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import {
   Column,
   CreateDateColumn,
@@ -44,35 +43,3 @@ class SurveyUser {
 }
 
 export { SurveyUser };
-=======
-import { Column, CreateDateColumn, Entity, PrimaryColumn } from "typeorm";
-import {v4 as uuid} from "uuid"
-import { User } from "./User";
-
-
-@Entity("Surveys_users")
-class SurveyUser{
-
-    @PrimaryColumn()
-    readonly id: string;
-
-    @Column()
-    user_id: string;
-
-    @Column()
-    survey_id: string;
-
-    @Column()
-    value: number;
-
-    @CreateDateColumn()
-    created_at: Date
-
-    constructor(){
-      if(!this.id){
-        this.id = uuid();
-      }
-    }
-  }
-export {SurveyUser}
->>>>>>> 03601a0e03be5d2be12ce120b4f5923fbb4511b5

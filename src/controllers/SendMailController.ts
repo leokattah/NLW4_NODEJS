@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 import { Request, Response } from "express";
 import { resolve } from "path";
 import { getCustomRepository } from "typeorm";
@@ -69,15 +69,3 @@ class SendMailController {
 }
 
 export { SendMailController };
-=======
-import {Request , Response} from 'express';
-
-class SendMailController {
-  async execute(request: Request , response:Response ){
-const {email, survey_id} = request.body;
-const usersRepository = 
-  }
-} 
-
-export {SendMailController}
->>>>>>> 03601a0e03be5d2be12ce120b4f5923fbb4511b5
