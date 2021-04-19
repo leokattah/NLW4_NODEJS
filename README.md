@@ -2,7 +2,8 @@
 
 ## Rocketseat
 
-<img src="https://cdn.discordapp.com/attachments/694609874197151754/813851700011335730/NLW04_pack_divulgacao_-_Github.png" alt="Banner NLW#4 Rocketseat">
+![NLW04_pack_divulgacao_-_Github](https://user-images.githubusercontent.com/64365302/115261815-54d62f80-a10a-11eb-80eb-dbec0e707fb8.png)
+
 
 <h1 align="center">NPS-NLW</h1>
 
